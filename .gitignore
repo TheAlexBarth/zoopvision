@@ -1,2 +1,137 @@
-# Ignore macOS Finder metadata
+# ─── OS ────────────────────────────────────────────────────────────
+# macOS
 .DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ─── Python bytecode / caches ──────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# ─── Virtual environments & env vars ────────────────────────────────
+# pipenv
+Pipfile.lock
+
+# virtualenv
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# dotenv
+.env
+.env.*
+
+# ─── Distribution / packaging ────────────────────────────────────────
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ─── Test / coverage ─────────────────────────────────────────────────
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# ─── Jupyter ────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+
+# ─── Logs ──────────────────────────────────────────────────────────
+logs/
+*.log
+
+# ─── Editors & IDEs ─────────────────────────────────────────────────
+# VS Code
+.vscode/
+
+# JetBrains
+.idea/
+*.iml
+*.iws
+
+# Sublime
+*.sublime-workspace
+*.sublime-project
+
+# Vim swap files
+*~
+*.swp
+*.swo
+
+# Emacs
+*~
+\#*\#
+.\#*
+
+# ─── Data & models ──────────────────────────────────────────────────
+# your raw/processed images, labels, large model files, etc.
+data/
+models/
+*.ckpt
+*.pth
+*.pt
+*.h5
+
+# ─── Miscellaneous ─────────────────────────────────────────────────
+# SQLite
+*.sqlite
+*.db
+
+# System files
+*.log
+*.aux
+*.out
+*.toc
+
+# Backup files
+*.bak
+*.old
+*.orig
+
+# Thumbnails
+*.thumb
+
+# Secret keys, tokens, credentials
+*.pem
+*.key
