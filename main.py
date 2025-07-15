@@ -1,5 +1,5 @@
 from utils import image_to_hash
-
+import pandas as pd
 
 if __name__ == "__main__":
     # Path to the image file
